@@ -180,8 +180,9 @@ set(SRC
 )
 
 set(LIB
-  ge_rasterizer
   ge_converter
+  ge_rasterizer
+  bf_blenkernel
 )
 
 add_definitions(${GL_DEFINITIONS})

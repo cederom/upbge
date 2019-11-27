@@ -108,6 +108,7 @@ set(SRC
 )
 
 set(LIB
+  ge_ketsji
   ge_rasterizer_opengl
   bf_intern_moto
 )

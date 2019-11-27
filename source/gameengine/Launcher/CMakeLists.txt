@@ -76,8 +76,10 @@ set(SRC
 set(LIB
   bf_intern_moto
   ge_expressions
+  ge_ketsji
   ge_logic_bricks
   ge_msg_network
+  ge_player
   ge_videotexture
   ge_device
 )

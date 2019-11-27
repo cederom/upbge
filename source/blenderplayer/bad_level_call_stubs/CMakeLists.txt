@@ -37,7 +37,7 @@ set(INC
 	../../blender/makesdna
 	../../blender/makesrna
 	../../../intern/glew-mx
-	../../../intern/guardedalloc
+        ../../../intern/guardedalloc
 )
 
 set(INC_SYS
@@ -50,19 +50,20 @@ set(SRC
 )
 
 if(WITH_BUILDINFO)
-	list(APPEND SRC
-		../../creator/buildinfo.c
-	)
-	add_definitions(-DBUILD_DATE="\"\""
-					-DBUILD_TIME="\"\""
-					-DBUILD_COMMIT_TIMESTAMP=0
-					-DBUILD_COMMIT_DATE="\"\""
-					-DBUILD_COMMIT_TIME="\"\""
-					-DBUILD_HASH="\"\""
-					-DBUILD_PLATFORM="\"\""
-					-DBUILD_BRANCH="\"\""
-					-DBUILD_TYPE="\"\""
-					)
+        list(APPEND SRC
+                ../../creator/buildinfo.c
+        )
+        add_definitions(-DBUILD_DATE="\"\""
+                                        -DBUILD_TIME="\"\""
+                                        -DBUILD_COMMIT_TIMESTAMP=0
+                                        -DBUILD_COMMIT_DATE="\"\""
+                                        -DBUILD_COMMIT_TIME="\"\""
+                                        -DBUILD_HASH="\"\""
+                                        -DBUILD_PLATFORM="\"\""
+                                        -DBUILD_BRANCH="\"\""
+                                        -DBUILD_TYPE="\"\""
+                                        )
+       #HERE SEE CREATOR CMAKELISTS
 endif()
 
 if(WITH_GAMEENGINE)

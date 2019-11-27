@@ -86,8 +86,8 @@ endif()
 
 if(WITH_GAMEENGINE)
   list(APPEND LIB
-    ge_launcher
     ge_blender_routines
+    ge_launcher
   )
 
   list(APPEND INC

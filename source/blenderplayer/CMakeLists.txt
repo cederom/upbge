@@ -32,11 +32,23 @@ list(APPEND LIB
   ge_player
   ge_expressions
   blenkernel_blc
-  bf_intern_guardedalloc
   bf_blenlib
-  bf_intern_memutil
   bf_dna_blenlib
   bf_blenloader
+  bf_blenkernel
+  bf_blenlib
+  bf_depsgraph
+  bf_dna
+  bf_editor_datafiles
+  bf_imbuf
+  bf_intern_clog
+  bf_intern_guardedalloc
+  bf_intern_memutil
+  bf_intern_opencolorio
+  bf_python
+  bf_render
+  bf_rna
+  bf_windowmanager
 )
 
 if(WIN32 AND NOT UNIX)

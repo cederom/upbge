@@ -103,6 +103,7 @@ set(SRC
 )
 
 set(LIB
+  ge_ketsji
   ge_physics_dummy
   ge_physics_bullet
 )

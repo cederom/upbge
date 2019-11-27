@@ -64,6 +64,7 @@ set(SRC
 )
 
 set(LIB
+  extern_bullet
 )
 
 if(WITH_BULLET)

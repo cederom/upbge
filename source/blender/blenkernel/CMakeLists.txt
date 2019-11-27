@@ -594,7 +594,7 @@ if(WITH_GAMEENGINE)
 	list(APPEND INC_SYS
 		../../../extern/recastnavigation
 	)
-	list(APPEND SRC
+        list(APPEND SRC
 		intern/navmesh_conversion.c
 		BKE_navmesh_conversion.h
 	)
