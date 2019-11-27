@@ -30,6 +30,7 @@ setup_libdirs()
 
 list(APPEND LIB
   ge_player
+  ge_expressions
   blenkernel_blc
   bf_intern_guardedalloc
   bf_blenlib
